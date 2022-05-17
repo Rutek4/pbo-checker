@@ -1,0 +1,22 @@
+{
+  "name": "pbo-checker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "node ./dist/app.js",
+    "dev": "concurrently \"npx tsc --watch\" \"nodemon -q ./dist/app.js\""
+  },
+  "author": "Rutek",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^17.0.33",
+    "concurrently": "^7.2.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.16",
+    "typescript": "^4.6.4"
+  }
+}
